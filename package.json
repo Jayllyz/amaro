@@ -17,6 +17,7 @@
 		"clean": "rimraf dist",
 		"lint": "biome lint --write",
 		"format": "biome format --write",
+		"ci": "biome ci",
 		"prepack": "npm run build",
 		"postpack": "npm run clean",
 		"build": "rspack build",
@@ -31,5 +32,8 @@
 		"rimraf": "^6.0.1",
 		"typescript": "^5.5.3"
 	},
-	"files": ["dist", "LICENSE.md"]
+	"files": [
+		"dist",
+		"LICENSE.md"
+	]
 }
